@@ -12,14 +12,15 @@
 
 ActiveRecord::Schema.define(version: 2023_06_09_101245) do
     create_table :books  do |t| 
-    t.string "title"
-    t.string "author"
+    t.string :title
+    t.string :author
+    t.integer :likes
     
   end
 
   create_table :reviews do |t|
-    t.string "text"
-    t.integer "book_id"
+    t.string :text
+    t.integer :book_id
   end
 
 end
