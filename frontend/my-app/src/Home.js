@@ -1,4 +1,6 @@
 import React from "react";
+import image from "./images/images.jpg";
+
 
 const Home = () => {
   return (
@@ -12,7 +14,7 @@ const Home = () => {
         </p>
         <img
           alt="flower and books"
-          src="https://images.unsplash.com/photo-1498906538030-8da82e61e424?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGJvb2tzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          src="./images/images.jpg"
         />
       </div>
     </>

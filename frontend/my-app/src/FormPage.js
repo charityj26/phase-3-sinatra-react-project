@@ -63,7 +63,7 @@ const FormPage = ({ addBooks }) => {
       </form>
       <img
         alt="book"
-        src="./image"
+        src="./images/images.jpg"
       ></img>
     </div>
   );
